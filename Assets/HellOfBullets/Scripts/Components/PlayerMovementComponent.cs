@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovementComponent : MonoBehaviour
 {
-    [SerializeField] private float _movementSpeed;
+    [SerializeField] private PlayerData playerData;
 
     private Transform mainCameraTransform;
     private InputSystemActions playerInputActions;
@@ -34,7 +34,7 @@ public class PlayerMovementComponent : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector3 displacement = movement * (_movementSpeed * Time.deltaTime);
+        Vector3 displacement = movement * (playerData.MovementSpeed * Time.deltaTime);
         transform.position += displacement;
         mainCameraTransform.position += displacement;
     }

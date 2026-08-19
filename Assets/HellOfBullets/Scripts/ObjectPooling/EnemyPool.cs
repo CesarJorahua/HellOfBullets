@@ -39,11 +39,11 @@ public class EnemyPool : MonoBehaviour
 
     private void OnPlayerClick(InputAction.CallbackContext context)
     {
-        // for (int i = 0; i < 100; i++)
-        // {
-        //     GameObject enemy = RequestEnemy();
-        //     enemy.transform.position = new Vector3(rand.Next(-10,10),rand.Next(-10,10),0);
-        // }
+        for (int i = 0; i < 100; i++)
+        {
+            GameObject enemy = RequestEnemy();
+            enemy.transform.position = new Vector3(rand.Next(-10,10),rand.Next(-10,10),0);
+        }
     }
 
     private void Start()
