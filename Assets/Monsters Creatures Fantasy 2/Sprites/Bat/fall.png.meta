@@ -1,40 +1,22 @@
 fileFormatVersion: 2
-guid: ae2c84d4e78e8a243a715eebb536dcfc
+guid: c4b05d48f9d478a4ab2595d3d513a94b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5352286359449648278
-    second: fly_0
+      213: -6732294965104032732
+    second: fall_0
   - first:
-      213: 6843129032921346866
-    second: fly_1
+      213: -8269792095265539674
+    second: fall_1
   - first:
-      213: -577472684307798074
-    second: fly_2
+      213: -2808048858112833009
+    second: fall_2
   - first:
-      213: -7030490577846672973
-    second: fly_3
+      213: -4388410108566013805
+    second: fall_3
   - first:
-      213: 7551582495221066229
-    second: fly_4
-  - first:
-      213: 7052353571005762725
-    second: fly_5
-  - first:
-      213: 5571602402917622367
-    second: fly_6
-  - first:
-      213: -46468130576277366
-    second: fly_7
-  - first:
-      213: 6967819863540319931
-    second: fly_8
-  - first:
-      213: -2124115683389910881
-    second: fly_9
-  - first:
-      213: 6625348985452500428
-    second: fly_10
+      213: -200338194739338904
+    second: fall_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -143,7 +125,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fly_0
+      name: fall_0
       rect:
         serializedVersion: 2
         x: 0
@@ -158,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69c3a271614274a40800000000000000
-      internalID: 5352286359449648278
+      spriteID: 424c2d106651292a0800000000000000
+      internalID: -6732294965104032732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fly_1
+      name: fall_1
       rect:
         serializedVersion: 2
         x: 87
@@ -180,14 +162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2337077599da7fe50800000000000000
-      internalID: 6843129032921346866
+      spriteID: 6a93d5397ebcb3d80800000000000000
+      internalID: -8269792095265539674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fly_2
+      name: fall_2
       rect:
         serializedVersion: 2
         x: 174
@@ -202,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c7a75837a76cf7f0800000000000000
-      internalID: -577472684307798074
+      spriteID: f0a4e34f07ec709d0800000000000000
+      internalID: -2808048858112833009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fly_3
+      name: fall_3
       rect:
         serializedVersion: 2
         x: 261
@@ -224,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b1e7be811eae6e90800000000000000
-      internalID: -7030490577846672973
+      spriteID: 398703ec14c3913c0800000000000000
+      internalID: -4388410108566013805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fly_4
+      name: fall_4
       rect:
         serializedVersion: 2
         x: 348
@@ -246,140 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f9a5b7f44c9cc860800000000000000
-      internalID: 7551582495221066229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fly_5
-      rect:
-        serializedVersion: 2
-        x: 435
-        y: 0
-        width: 87
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ac8146353efed160800000000000000
-      internalID: 7052353571005762725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fly_6
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 0
-        width: 87
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f522e97adde425d40800000000000000
-      internalID: 5571602402917622367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fly_7
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 0
-        width: 87
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a80ef9f3b79ea5ff0800000000000000
-      internalID: -46468130576277366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fly_8
-      rect:
-        serializedVersion: 2
-        x: 696
-        y: 0
-        width: 87
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb64b31bf3ba2b060800000000000000
-      internalID: 6967819863540319931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fly_9
-      rect:
-        serializedVersion: 2
-        x: 783
-        y: 0
-        width: 87
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9055bd3a00a582e0800000000000000
-      internalID: -2124115683389910881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fly_10
-      rect:
-        serializedVersion: 2
-        x: 870
-        y: 0
-        width: 87
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc514e6bcc7f1fb50800000000000000
-      internalID: 6625348985452500428
+      spriteID: 8616e9b2971483df0800000000000000
+      internalID: -200338194739338904
       vertices: []
       indices: 
       edges: []
@@ -388,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0bf9c8f352836694bb65474f4f61a711
+    spriteID: 1aee677c564da7e43acaf581527a9d70
     internalID: 0
     vertices: []
     indices: 
@@ -398,19 +248,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":11.0,"y":1.0},"gridSpriteSize":{"x":87.0,"y":87.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":87.0,"y":87.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      fly_0: 5352286359449648278
-      fly_1: 6843129032921346866
-      fly_10: 6625348985452500428
-      fly_2: -577472684307798074
-      fly_3: -7030490577846672973
-      fly_4: 7551582495221066229
-      fly_5: 7052353571005762725
-      fly_6: 5571602402917622367
-      fly_7: -46468130576277366
-      fly_8: 6967819863540319931
-      fly_9: -2124115683389910881
+      fall_0: -6732294965104032732
+      fall_1: -8269792095265539674
+      fall_2: -2808048858112833009
+      fall_3: -4388410108566013805
+      fall_4: -200338194739338904
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
@@ -421,5 +265,5 @@ AssetOrigin:
   productId: 379160
   packageName: Monsters_Creatures_Fantasy 2
   packageVersion: 1.0
-  assetPath: Assets/Monsters Creatures Fantasy 2/Sprites/Bat/fly.png
+  assetPath: Assets/Monsters Creatures Fantasy 2/Sprites/Bat/fall.png
   uploadId: 914690
