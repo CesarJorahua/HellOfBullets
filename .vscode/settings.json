@@ -61,5 +61,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "HellOfBullets.slnx"
+    "dotnet.defaultSolution": "HellOfBullets.slnx",
+    "dotnet.preferCSharpExtension": true
 }
