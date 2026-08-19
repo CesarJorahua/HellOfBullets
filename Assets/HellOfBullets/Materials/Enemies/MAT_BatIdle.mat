@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BatIdle
+  m_Name: MAT_BatIdle
   m_Shader: {fileID: -6465566751694194690, guid: 6e1e20b10fe34b14888d290e6135fe69, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -42,11 +42,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 912a61aa21b59fa45ba587771e816a1d, type: 3}
+        m_Texture: {fileID: 2800000, guid: ae2c84d4e78e8a243a715eebb536dcfc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_b452c08bb05b4e7892bdb42f467bf2cd_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: ae2c84d4e78e8a243a715eebb536dcfc, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_d2c40a6d0b9e452b8cf9edd8d894003b_Out_0_Texture2D:
@@ -67,11 +67,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _DamageFlashAmount: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SpeedOffset: 8
     - _Tile: 0
-    - _TilesInMap: 11.25
+    - _TilesInMap: 11
     m_Colors:
     - White: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
